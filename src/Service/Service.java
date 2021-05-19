@@ -92,5 +92,4 @@ public class Service {
         add("Mercedes-Benz", "AMG GTR", 585, 2, 185000);
         add("Škoda", "Octavia", 245, 6, 35000);
     }
-
 }

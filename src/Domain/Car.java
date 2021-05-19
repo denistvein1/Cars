@@ -13,6 +13,14 @@ public class Car implements Comparable {
         this.price = price;
     }
 
+    public Car(Car car) {
+        this.company = car.getCompany();
+        this.model = car.getModel();
+        this.hp = car.getHp();
+        this.quantity = car.getQuantity();
+        this.price = car.getPrice();
+    }
+
     public Car(String company, String model) {
         this(company, model, 50, 1, 100);
     }
